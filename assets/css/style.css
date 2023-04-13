@@ -9,7 +9,7 @@
 
 body {
     background-color: #191919;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url('assets/img/Tokyo-Revengers-Wallpaper.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url('/assets/img/Tokyo-Revengers-Wallpaper.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 115vh;
@@ -120,7 +120,7 @@ header nav ul li a.active{
 }
 @media only screen and (max-width : 1050px){
     body {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url('assets/img/Tokyo-Revengers-Wallpaper.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url('/assets/img/Tokyo-Revengers-Wallpaper.jpg');
         height: 100vh;
     }
 
@@ -185,7 +185,7 @@ header nav ul li a.active{
 
     body {
         background-color: #191919;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url('assets/img/Tokyo-Revengers-Wallpaper-phone.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url('/assets/img/Tokyo-Revengers-Wallpaper-phone.jpg');
         height: 100vh;
     }
 
