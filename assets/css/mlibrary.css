@@ -8,8 +8,21 @@
 }
 
 body {
-    background: #191919;
+    background-color: #191919;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url('/assets/img/Tokyo-Revengers-Wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 115vh;
 }
+
+/*
+.background-image{
+    background-image: url('/assets/img/Fond\ site.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+*/
 
 header {
     background-color: #3e5f3e;
@@ -19,7 +32,7 @@ header {
     align-items: right;
     justify-content: space-between;
     padding: 0 50px;
-    border-bottom-style: double;
+    border-bottom-style: solid;
     border-bottom-color: #3e5f3e;
 }
 
@@ -28,7 +41,7 @@ label.logo{
     text-transform: uppercase;
     color: azure;
     line-height: 80px;
-    font-weight: bold;  
+    font-weight: bold; 
 }
 
 header nav ul{
@@ -63,7 +76,7 @@ header nav ul li a{
 
 header nav ul li a:hover,
 header nav ul li a.active{
-    border-bottom-color: #3e5f3e;
+    border-bottom-color: white;
 }
 
 .hamburger {
@@ -105,7 +118,12 @@ header nav ul li a.active{
     }
 
 }
-@media only screen and (max-width : 850px){
+@media only screen and (max-width : 1050px){
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url('/assets/img/Tokyo-Revengers-Wallpaper.jpg');
+        height: 100vh;
+    }
+
     .hamburger{
         display: block;
         top: 23px;
@@ -114,13 +132,13 @@ header nav ul li a.active{
         position: absolute;
         width: 100%;
         left: -100%;
-        left: 0;
-        top: 70px;
+        top: 80px;
         width : 100%;
-        background-color: #ffffff8a;
+        height: 50vh;
+        background-color: #3e5f3ed1;
         backdrop-filter: blur(4px);
         transition: all 1s ease;
-        padding: 30px;
+        padding: 20px;
         transform: translate(-100%);
         flex-direction: column;
         text-align: center;
@@ -132,12 +150,12 @@ header nav ul li a.active{
         display: block;
     }
     header nav ul li a{
-        color:black;
+        color:white;
         margin: 5px 0 ;
     }
     header nav ul li.active a {
-        color: white;
-        background-color: #3e5f3e;
+        color: #3e5f3e;
+        background-color: white;
     }
     header nav.active {
         transform: translate(0);
@@ -148,8 +166,39 @@ header nav ul li a.active{
 
 }
 
-@media only screen and (max-width : 850px){
+@media only screen and (max-width : 500px){
     label.logo{
         font-size: 20px; 
     }
+
+    body {
+        background-color: #191919;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url('/assets/img/Tokyo-Revengers-Wallpaper-phone.jpg');
+        height: 100vh;
+    }
+
+    h1{
+        font-size:  30px;
+    }
+}
+
+h1{
+    color: white;
+    font-size: 41px;
+    size: 100px;
+    /*
+    background-color: #3e5f3e;
+    padding: 10px 25px;
+    border-radius: 30px 30px 0 0;
+    */
+}
+
+p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*
+    background-color: #3e5f3e;
+    padding: 10px 25px;
+    border-radius: 0 0 30px 30px;
+    */
 }
