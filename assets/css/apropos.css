@@ -3,7 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
 }
 
@@ -14,15 +14,6 @@ body {
     background-repeat: no-repeat;
     height: 115vh;
 }
-
-/*
-.background-image{
-    background-image: url('/assets/img/Fond\ site.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 120vh;
-}
-*/
 
 header {
     background-color: #3e5f3e;
