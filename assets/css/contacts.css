@@ -194,7 +194,7 @@ p{
 .custom-shape-divider-bottom-1687714120 svg {
     display: block;
     width: calc(100% + 1.3px);
-    height: 488px;
+    height: 588px;
 }
 
 .custom-shape-divider-bottom-1687714120 .shape-fill {
@@ -203,7 +203,7 @@ p{
 
 .container{
     position: relative;
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     justify-content: center;
