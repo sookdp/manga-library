@@ -202,8 +202,9 @@ p{
 }
 
 .container{
+    top: 150px;
     position: relative;
-    height: 80vh;
+    height: 50vh;
     width: 100%;
     display: flex;
     justify-content: center;
