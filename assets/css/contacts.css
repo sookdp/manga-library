@@ -151,10 +151,6 @@ header nav ul li a.active{
         font-size: 20px; 
     }
 
-    .container{
-        height: 40vh;
-    }
-
 
 }
 
@@ -185,30 +181,9 @@ p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.custom-shape-divider-bottom-1687714120 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1687714120 svg {
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 588px;
-}
-
-.custom-shape-divider-bottom-1687714120 .shape-fill {
-    fill: #3e5f3e;
-}
-
 .container{
-    top: 150px;
     position: relative;
-    height: 50vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     justify-content: center;
