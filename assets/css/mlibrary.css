@@ -125,7 +125,7 @@ header nav ul li a.active{
         top: 80px;
         width : 100%;
         height: 100vh;
-        background-color: transparent;
+        background-color: rgba(0, 0, 0, 0.56);
         backdrop-filter: blur(4px);
         transition: all 1s ease;
         padding: 20px;
