@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <label class="logo"><h2>Manga Library</h2></label>
+        <div class="logo"><img src="assets/img/manga-library.png" alt="Manga library logo"></div>
         <input type="checkbox" id="nav_check" hidden>
         <nav>
             <ul>
@@ -19,7 +19,6 @@
                 <li><a href="guide.html">Guide</a></li>
                 <li><a href="mlibrary.html">Manga Library</a></li>
                 <li><a href="contacts.html">Contacts</a></li>
-                <li><a href="apropos.html">A Propos</a></li>
             </ul>
         </nav>
         <label for="nav_check" aria-label="toggle curtain navigation" class="hamburger">
@@ -28,18 +27,20 @@
             <div class="line l3"></div>
         </label>
     </header>
-    <script src="script.js"></script>
-    <div class="row">
-        <div class="col">
-            <h1>Bienvenue !</h1>
-            <p>Ici tu pourras retrouver différents types de manga qui peuvent t'intéresser.
-                Tu pourras aussi avoir accès à un guide concernant les différents genres de manga.
-                <br> Bonne navigation !</p>
-                <br>
-                <span class="texte"><a href="mlibrary.html"> Explorer la bibliothèque</a></span>
-                <br><br><br>
-                <span class="texte"><a href="guide.html"> Visiter le guide</a></span>
-        </div>
+
+    <div>
+        <section id="welcome-section">
+            <h1>Bienvenue dans</h1>
+            <h2>Ma Bibliothèque de Manga</h2>
+            <p>Cette bibliothèque virtuelle est une collection personnelle de mes mangas préférés.
+                Explorez mes lectures, découvrez des trésors cachés, et partageons ensemble la passion du manga !</p>
+            <div>
+                <a href="guide.html" class="btn">Guide</a>
+                <a href="mlibrary.html" class="btn">Manga Library</a>
+            </div>
+        </section>
     </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

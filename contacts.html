@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <label class="logo"><h2>Manga Library</h2></label>
+        <div class="logo"><img src="assets/img/manga-library.png" alt="Manga library logo"></div>
         <input type="checkbox" id="nav_check" hidden>
         <nav>
             <ul>
@@ -19,7 +19,6 @@
                 <li><a href="guide.html">Guide</a></li>
                 <li><a href="mlibrary.html">Manga Library</a></li>
                 <li><a href="contacts.html">Contacts</a></li>
-                <li><a href="apropos.html">A Propos</a></li>
             </ul>
         </nav>
         <label for="nav_check" aria-label="toggle curtain navigation" class="hamburger">
@@ -32,25 +31,26 @@
         <div class="item">
             <div class="submit-form">
                 <h4 class="me-contacter">Me Contacter</h4>
-                <form action="">
+                <form action="https://formspree.io/f/xkgwbrdz"
+                      method="POST">
                     <div class="input-box">
-                        <input type="text" class="input" required>
+                        <input type="text" class="input" name="nom" required>
                         <label for="">Nom</label>
                     </div>
                     <div class="input-box">
-                        <input type="text" class="input" required>
+                        <input type="text" class="input" name="prenom" required>
                         <label for="">Prénom</label>
                     </div>
                     <div class="input-box">
-                        <input type="tel" class="input" required>
+                        <input type="tel" class="input" name="tel">
                         <label for="">Tél.</label>
                     </div>
                     <div class="input-box">
-                        <input type="email" class="input" required>
+                        <input type="email" class="input" name="email" required>
                         <label for="">Adresse Mail</label>
                     </div>
                     <div class="input-box">
-                        <textarea name="" class="input" required="objet" cols="30" rows="10"></textarea>
+                        <textarea name="objet" class="input" required cols="30" rows="10"></textarea>
                         <label for="">Objet</label>
                     </div>
                     <input type="submit" class="btn" value="Envoyer">
@@ -58,6 +58,6 @@
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -15,27 +15,31 @@ body {
 }
 
 header {
-    background-color: #3e5f3e;
     width: 100%;
     height : 80px;
     display: flex;
-    align-items: right;
     justify-content: space-between;
-    padding: 0 50px;
-    border-bottom-style: solid;
-    border-bottom-color: #3e5f3e;
+    padding: 5px 40px;
 }
 
-label.logo{
-    font-size: 25px;
-    text-transform: uppercase;
-    color: azure;
-    line-height: 80px;
-    font-weight: bold; 
+header .logo {
+    width: 5vw;
+    height: auto;
+    margin-top: 5px;
+
+}
+
+header .logo img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
 }
 
 header nav ul{
     display: flex;
+    background-color: #3e5f3e;
+    padding: 0 50px;
+    border-radius: 50px;
 }
 
 
@@ -66,7 +70,8 @@ header nav ul li a{
 
 header nav ul li a:hover,
 header nav ul li a.active{
-    border-bottom-color: white;
+    border-bottom: 1px solid white;
+    transition: 0.5s;
 }
 
 .hamburger {
@@ -77,8 +82,8 @@ header nav ul li a.active{
 
 .hamburger div {
     width: 30px;
-    height: 3px;
-    margin: 5px 0;
+    height: 2px;
+    margin: 7px 0;
     background: white;
 }
 
@@ -89,7 +94,7 @@ header nav ul li a.active{
 
 
 .hamburger.active .l1 {
-    transform: translateY(15px) rotate(135deg);
+    transform: translateY(7px) rotate(135deg);
     width: 35px;
 }
 
@@ -98,7 +103,7 @@ header nav ul li a.active{
 }
 
 .hamburger.active .l3 {
-    transform: translateY(0px) rotate(-135deg);
+    transform: translateY(-10px) rotate(-135deg);
     width: 35px;
 }
 
@@ -123,8 +128,8 @@ header nav ul li a.active{
         left: -100%;
         top: 80px;
         width : 100%;
-        height: 50vh;
-        background-color: #3e5f3ed1;
+        height: 100vh;
+        background-color: transparent;
         backdrop-filter: blur(4px);
         transition: all 1s ease;
         padding: 20px;
@@ -137,6 +142,7 @@ header nav ul li a.active{
     }
     header nav ul{
         display: block;
+        background-color: transparent;
     }
     header nav ul li a{
         color:white;
@@ -149,8 +155,8 @@ header nav ul li a.active{
     header nav.active {
         transform: translate(0);
     }
-    label.logo{
-        font-size: 20px; 
+    header .logo {
+        width: 8vw;
     }
 
 }
@@ -160,8 +166,8 @@ header nav ul li a.active{
         padding: 0 30px;
     }
 
-    label.logo{
-        font-size: 20px; 
+    header .logo {
+        width: 15vw;
     }
 
     body {
@@ -178,6 +184,7 @@ h1{
     color: white;
     font-size: 41px;
     size: 100px;
+    margin-top: 20px;
     /*
     background-color: #3e5f3e;
     padding: 10px 25px;
@@ -204,7 +211,7 @@ p{
 
 .card{
     width: 325px;
-    background-color: #00000056;
+    background-color: #191919;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 1px 2px 4px #3e5f3e;

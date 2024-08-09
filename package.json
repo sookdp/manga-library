@@ -1,0 +1,25 @@
+{
+  "name": "manga-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sookdp/manga-library.git"
+  },
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "particles.js": "^2.0.0",
+    "process": "^0.11.10"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
